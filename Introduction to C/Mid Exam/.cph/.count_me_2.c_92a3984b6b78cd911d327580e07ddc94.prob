@@ -1,0 +1,1 @@
+{"name":"Local: count_me_2","url":"e:\\Phitron\\Mid Exam\\count_me_2.c","tests":[{"id":1714120969597,"input":"thefoxisgone","output":"7"},{"id":1714120986795,"input":"sjxapw","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\Mid Exam\\count_me_2.c","group":"local","local":true}

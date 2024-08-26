@@ -1,0 +1,1 @@
+#include<bits/stdc++.h> //common header file that has all the libraries.

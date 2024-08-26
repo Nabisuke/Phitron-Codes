@@ -1,0 +1,1 @@
+printf("%c - %d\n",i+97,cnt[i]);

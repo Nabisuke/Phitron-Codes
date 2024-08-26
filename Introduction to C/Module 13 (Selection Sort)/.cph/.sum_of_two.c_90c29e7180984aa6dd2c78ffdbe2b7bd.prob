@@ -1,0 +1,1 @@
+{"name":"Local: sum_of_two","url":"e:\\Phitron\\Module 13\\sum_of_two.c","tests":[{"id":1714314771688,"input":"5\n5 3 2 4 7\n9","output":"YES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\Module 13\\sum_of_two.c","group":"local","local":true}

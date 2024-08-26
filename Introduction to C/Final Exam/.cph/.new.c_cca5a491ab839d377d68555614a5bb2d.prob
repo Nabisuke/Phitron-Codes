@@ -1,0 +1,1 @@
+{"name":"Local: new","url":"e:\\Phitron\\Final Exam\\new.c","tests":[{"id":1715357683967,"input":"3\n5\nTPTPP\n3\nTTP\n4\nTPPT","output":"Pathaan\nTiger\nDraw"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\Final Exam\\new.c","group":"local","local":true}

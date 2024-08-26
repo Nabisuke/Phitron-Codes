@@ -1,0 +1,23 @@
+class Solution {
+public:
+
+    bool preOrder(TreeNode* p, TreeNode* q) {
+        if (!p && !q) return true;
+        if (!p  !q) return false;
+        if (p->val != q->val) return false;
+        return preOrder(p->left, q->left) && preOrder(p->right, q->right);
+    }
+
+
+    bool postOrder(TreeNode* p, TreeNode* q) {
+        if (!p && !q) return true;
+        if (!p  !q) return false;
+        if (!postOrder(p->left, q->left)) return false;
+        if (!postOrder(p->right, q->right)) return false;
+        return p->val == q->val;
+    }
+
+    bool isSameTree(TreeNode* p, TreeNode* q) {
+        return preOrder(p, q) && postOrder(p, q);
+    }
+};

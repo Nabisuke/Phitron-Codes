@@ -1,0 +1,18 @@
+void is_palindrome(Node head) {
+    vector<int> v;
+
+    Nodetmp = head;
+    while (tmp != NULL) {
+        v.push_back(tmp->val);
+        tmp = tmp->next;
+    }
+
+    vector<int> r;
+    r = v;
+    reverse(r.begin(), r.end());
+
+    if (v == r)
+        cout << "YES\n";
+    else
+        cout << "NO\n";
+}

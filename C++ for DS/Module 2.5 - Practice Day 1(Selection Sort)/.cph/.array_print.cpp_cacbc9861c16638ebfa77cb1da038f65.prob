@@ -1,0 +1,1 @@
+{"name":"Local: array_print","url":"e:\\Phitron\\C++ for DS\\Practice Day 1\\array_print.cpp","tests":[{"id":1716526018913,"input":"5\n1 2 3 4 5","output":"1 2 3 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\C++ for DS\\Practice Day 1\\array_print.cpp","group":"local","local":true}

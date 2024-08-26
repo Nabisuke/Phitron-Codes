@@ -1,0 +1,4 @@
+1. Static Memory is called compile time and Dynamic Memory is called Run time.
+2. Static memory has limited memory and Dynamic Memory has large memory.
+3. Static Memory can't increase the memory size and Dynamic Memory can increase the size.
+4. Static Memory clears memory automatically. Dynamic Memory is user instructed.

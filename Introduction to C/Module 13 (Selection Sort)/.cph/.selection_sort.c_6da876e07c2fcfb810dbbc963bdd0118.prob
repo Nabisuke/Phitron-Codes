@@ -1,0 +1,1 @@
+{"name":"Local: selection_sort","url":"e:\\Phitron\\Module 13\\selection_sort.c","tests":[{"id":1714316089355,"input":"5\n2 4 5 1 3","output":"1 2 3 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\Module 13\\selection_sort.c","group":"local","local":true}

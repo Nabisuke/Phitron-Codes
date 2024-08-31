@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class cmp
+{
+public:
+    bool operator()(pair<string, int> &a, pair<string, int> &b)
+    {
+        // Sort by the first element (string) in lexicographical order
+        if (a.first > b.first)
+            return true;
+        else if (a.first < b.first)
+            return false;
+        else
+        {
+            // If first elements (strings) are equal, sort by the second element in descending order
+            return a.second < b.second;
+        }
+    }
+};
+
+int main()
+{
+    priority_queue<pair<string, int>, vector<pair<string, int>>, cmp> pq; // custom sorted priority queue
+
+    vector<pair<string, int>> pairs = {{"apple", 3}, {"banana", 1}, {"cherry", 0}, {"apple", 2}}; // input pairs
+
+    for (const auto &p : pairs)
+    {
+        pq.push(p);
+    }
+
+    cout << "Priority queue contents:" << endl;
+    while (!pq.empty())
+    {
+        cout << pq.top().first << " " << pq.top().second << endl;
+        pq.pop();
+    }
+}
